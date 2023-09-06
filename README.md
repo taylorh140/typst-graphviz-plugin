@@ -7,7 +7,7 @@ It should contain everything needed to compile but the following tools are neede
 - wabt (for conversion between wat/wasm)
 - emcc (for compiling the plugin)
 
-after cloning the repo the ./Build should create the wasm file (let me know if there are problems). 
+after cloning the repo (do it recursively) the ./Build should create the wasm file (let me know if there are problems). 
 
 # Work left to do
 - Fonts are not appropriately handled and basically cause the plugin to lock up. I think this needs to be figured out, but is fairly easy to work around.
