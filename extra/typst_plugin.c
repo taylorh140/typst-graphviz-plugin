@@ -30,10 +30,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-
+static int callcnt = 0;
 
 ssize_t getrandom(void * buf, size_t buflen, unsigned int flags){
-    return 42;
+    return 42+callcnt;
+    callcnt += 1;
 }
 
 

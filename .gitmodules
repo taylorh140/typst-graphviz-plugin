@@ -1,0 +1,6 @@
+[submodule "expat"]
+	path = expat
+	url = https://github.com/libexpat/libexpat.git
+[submodule "graphviz"]
+	path = graphviz
+	url = https://gitlab.com/graphviz/graphviz.git
